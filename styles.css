@@ -1,0 +1,59 @@
+.home {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmC_ZZ-k1KyzmKlqg3fNG3K3KYLOuqZXXXhuFW2KhllOpoTbjd9Q");
+}
+
+.row{
+    background-color:black;
+    color:white;
+    font-size:20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.headshot{
+    width:20%;   
+}
+
+.mid{
+    background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/1920x1200-game-images-neko-atsume-download-620x388.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:black;
+    align-items:center;
+    font-size:50px;
+    margin-top:5px;
+    margin-bottom:5px;
+    text-align: center;
+}
+
+.name {
+    font-family: "Press Start 2P";
+    color: teal;
+    font-size: 60px;
+}
+
+.aboutme{
+    background-color: dimgray;
+    text-align: center;
+    border:10px ridge lightblue;   
+}
+
+.title {
+    font-family: "Tangerine";
+    text-align: center;
+    font-size: 50px;
+    color: darkblue;
+    text-decoration: underline;
+}
+
+.description {
+    text-align: center;
+}
+
+.continfo {
+    text-align: center;
+}
+}
