@@ -1,3 +1,7 @@
+body {
+    overflow-y: scroll;
+}
+
 .home {
     background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmC_ZZ-k1KyzmKlqg3fNG3K3KYLOuqZXXXhuFW2KhllOpoTbjd9Q");
 }
@@ -11,6 +15,7 @@
 .footer {
     display: flex;
     justify-content: space-around;
+    background-color: lightgrey;
 }
 
 .headshot{
@@ -56,4 +61,31 @@
 .continfo {
     text-align: center;
 }
+
+.port {
+    text-align: center;
 }
+
+.ss1 {
+    height: 40%;
+    width:40%;
+    margin: 15px;
+}
+
+.ss2 {
+    height: 40%;
+    width:40%;
+    margin: 15px;
+}
+
+.portdiv {
+    display: flex;
+    margin: 15px;
+}
+
+.porttitle {
+    display: flex;
+    justify-content: space-around;
+}
+
+
