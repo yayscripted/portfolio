@@ -55,7 +55,7 @@ body {
 }
 
 .description {
-    text-align: center;
+    margin: auto;
     width: 50%;
 }
 
@@ -118,4 +118,7 @@ iframe.proj {
 }
 
 .port {
+    width: 50%;
+    margin: auto;
+    
 }
