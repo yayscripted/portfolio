@@ -56,13 +56,10 @@ body {
 
 .description {
     text-align: center;
+    width: 50%;
 }
 
 .continfo {
-    text-align: center;
-}
-
-.port {
     text-align: center;
 }
 
@@ -93,9 +90,33 @@ body {
 }
 
 .repo {
-    height: 200px;
+    height: 100px;
     margin: 15px;
 }
 
+.woolypic {
+    height: 200px;
+}
 
+.img {
+    height: 100px;
+}
 
+.projdiv {
+    margin: 50px;
+    height: 200px;
+    display: flex;
+}
+
+iframe.proj {
+    height: 100px;
+    width: 100px;
+}
+
+.desc {
+    width: 300px;
+}
+
+.port {
+    width: 50%;
+}
