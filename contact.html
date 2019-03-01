@@ -1,21 +1,35 @@
 <html>
     <head>
+        <meta charset="utf-8" />
+        <title>Contact</title>
         <link href="styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Press+Start+2P|Sacramento|Tangerine" rel="stylesheet">
         <link href="styles.css" rel="stylesheet">
         <link rel="icon" href="https://media0.giphy.com/media/4PUkqN8QQsaFIkqi8a/source.gif" type="image/gif">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="contact.js"></script>
     </head>
     <body>
         <div class="row footer">
-        <div class="p"><a href="index.html">Farrah Yee</a></div>
-            <div class="p"><a href="aboutme.html">About Me</a></div>
-            <div class="p"><a href="portfolio.html">Portfolio</a></div>
-            <div class="p"><a href="contact.html">Contact</a></div>
+        <div class="p"><a href="index.html" class="link">Farrah Yee</a></div>
+        <div class="p"><a href="aboutme.html" class="link">About Me</a></div>
+        <div class="p"><a href="portfolio.html" class="link">Portfolio</a></div>
+        <div class="p"><a href="contact.html" class="link">Contact</a></div>
         </div>
         <h1 class="title">Contact</h1>
         <h2 class="continfo">Contact me at:</h2>
         <p class="continfo"><a href="https://github.com/yayscripted" target="_blank">Github: yayscripted</a></p>
         <p class="continfo">Email: classprojectjn@gmail.com</p>
+        
+        <div class="rates">
+                        <h3>Rate this portfolio?</h3>
+                            5<input type="radio" name="rate" value="5"><br>
+                            4<input type="radio" name="rate" value="4"><br>
+                            3<input type="radio" name="rate" value="3"><br>
+                            2<input type="radio" name="rate" value="2"><br>
+                            1<input type="radio" name="rate" value="1"><br>
+                            <input type="button" value="Rate!" id="button">
+        </div> 
         
     </body>
 </html>

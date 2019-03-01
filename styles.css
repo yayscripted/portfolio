@@ -122,3 +122,43 @@ iframe.proj {
     margin: auto;
     
 }
+
+.rates {
+    width: 30%; 
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border: inset 5px skyblue;
+}
+
+input {
+    margin: 10px;
+}
+
+.link:link {
+    color: blue;
+} 
+
+.link:visited {
+    color: green;
+} 
+
+.link:hover {
+    color: indigo;
+}
+
+.link:active {
+    color: red;
+}
+
+.photos {
+    text-align: center;
+}
+
+.codenation {
+    height: 100px;
+}
+
+.portfolio {
+    background-color: white;
+}
